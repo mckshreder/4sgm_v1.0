@@ -20,11 +20,12 @@ body{
 	margin: 0px;
 	font-size: 1em;
 	padding-left: 0px;
+	margin-left: 5px;
 }
 
 
 li.nav_tab{
- width:12.58%;
+ width:12.63%;
 
  background-color: white;
  border: 1px solid #ccc;
@@ -34,24 +35,54 @@ li.nav_tab{
  margin-left: -5px;
  background-image: linear-gradient(to bottom,#fff 0,#e0e0e0 100%)
 }
-
 .nav_tab a{
 	margin: 0px;
 	padding: 0px;
 	color: #1c4c73;
 	font-weight: 700;
-
 }
-
 .search_bar{
 	width:100%;
  	margin-left: 0px;
 }
  .input-group{
  	width:100%;
- 	margin-left: -5px;
- }
+ 	/*margin-left: -5px;*/
+}
 
+div.landing_container{
+	display: inline-block !important;
+	width:100%;
+
+}
+
+.left_column{
+	float: left;
+	/*clear: both;*/
+	width: 18%;
+	border:1px solid black;
+	height:1000px;
+	border: 1px solid #ccc;
+}
+
+
+.center_column{
+	width: 59%;
+	border:1px solid black;
+	height:1000px;
+	display: inline-block !important;
+	margin-left: 5px;
+	border: 1px solid #ccc;
+}
+
+.right_column{
+	width: 22.1%;
+	clear: both;
+	border:1px solid black;
+	height:1000px;
+	display: inline-block !important;
+	border: 1px solid #ccc;
+}
 
 
 
