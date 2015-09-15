@@ -1,5 +1,4 @@
 body{
-	background-color: blue;
 	width: 100%;
 }
 .body_container{
@@ -25,9 +24,10 @@ body{
 
 
 li.nav_tab{
- width:12%;
+ width:12.58%;
+
  background-color: white;
- border: 1px solid black;
+ border: 1px solid #ccc;
  display: inline-block;
  text-align: center;
  margin: 0px;
@@ -42,6 +42,16 @@ li.nav_tab{
 	font-weight: 700;
 
 }
+
+.search_bar{
+	width:100%;
+ 	margin-left: 0px;
+}
+ .input-group{
+ 	width:100%;
+ 	margin-left: -5px;
+ }
+
 
 
 
